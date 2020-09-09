@@ -6,7 +6,8 @@
   "homepage": "https://mickymac19.github.io/modern_portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Micky Macato",
   "license": "MIT",
@@ -15,3 +16,4 @@
     "node-sass": "^4.14.0"
   }
 }
+
